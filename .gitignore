@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Package managers
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_metadata/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# API keys / credentials (agentic AI)
+secrets/
+credentials/
+*.token
+*.secret
+
+# LLM / AI model artifacts
+*.gguf
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# MCP server artifacts
+mcp_server.log
+mcp_config.local.json
+.mcp/
+
+# Vector DBs / embeddings cache
+chroma_db/
+faiss_index/
+*.index
+embeddings_cache/
+
+# LangChain / LlamaIndex / agent caches
+.langchain/
+agent_state/
+memory_store/
+
+# Lab Folder
+lab/*
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
