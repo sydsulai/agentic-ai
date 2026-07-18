@@ -6,6 +6,8 @@
 uv add langchain
 uv add langchain_community
 uv add langchain-text-splitters
+uv add langchain-openai
+uv add chromadb
 ```
 
 ## API Keys and Setup
@@ -42,6 +44,13 @@ from langchain_text_splitters import HTMLHeaderTextSplitter
 
 1. Embed
 
+Converting text to vectors.
+
+- OpenAI Embedding
+- OLlama Embedding
+- HuggingFace Embedding
+
 ## Reference Docs
 
 - [DataIngestion-DocumentLoaders](https://docs.langchain.com/oss/python/integrations/document_loaders)
+- [OpenAI Embeddings](https://developers.openai.com/api/docs/guides/embeddings)
