@@ -18,5 +18,7 @@ print(emp2)
 emp3 = Employee(name="Alice Johnson", age=35, department="HR", salary=80000.0, reportee=["Bob Brown", "Charlie Davis"])
 print(emp3)
 
-emp4 = Employee(name="Bob Brown", age=40, department="Finance", salary=-1, reportee=["David Evans"])
-print(emp4)
+# emp4 = Employee(name="Bob Brown", age=40, department="Finance", salary=-1, reportee=["David Evans"])
+# print(emp4)
+
+print(emp3.model_json_schema())
