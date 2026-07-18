@@ -1,28 +1,11 @@
-1. Install Cursor
-1. Install uv packet manager
+# Agentic AI Hands-On
 
-### Commands
+Each Folder Have their own README file. This Hands On will talk about Agents, RAG, Agentic AI, LangChain, LangGraph, LangSmith etc.,
 
-**Create virtual environment:**
+## Commands
 
 ```sh
 uv venv
-```
-
-**Install dependencies:**
-
-```sh
 uv sync
-```
-
-**Activate venv:**
-
-```sh
 source .venv\bin\activate
-```
-
-**Run the application:**
-
-```sh
-uv run filename.py
 ```
