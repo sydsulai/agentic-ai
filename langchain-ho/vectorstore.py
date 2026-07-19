@@ -21,7 +21,7 @@ split_docs = text_splitter.split_documents(docs)
 # Vector Embedding and Vector Store
 openai_embeddings_1024 = OpenAIEmbeddings(model="text-embedding-3-large", dimensions=1024)
 vector_store = Chroma.from_documents(documents=split_docs, embedding=openai_embeddings_1024, persist_directory="./chroma_db")
-print(vector_store)
+# print(vector_store)
 
 # Vector retrieve using persist Directory
 vector_retrieve = Chroma(persist_directory="./chroma_db", embedding_function=openai_embeddings_1024)

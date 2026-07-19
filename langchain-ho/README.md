@@ -8,6 +8,10 @@ uv add langchain_community
 uv add langchain-text-splitters
 uv add langchain-openai
 uv add chromadb
+uv add sentence_transformers # Required for HuggingFace Embeddings
+uv add langchain_huggingface
+uv add faiss-cpu
+uv add langchain_chroma
 ```
 
 ## API Keys and Setup
@@ -47,8 +51,23 @@ from langchain_text_splitters import HTMLHeaderTextSplitter
 Converting text to vectors.
 
 - OpenAI Embedding
-- OLlama Embedding
+- [Ollama Embedding](https://ollama.com/)
+  - [Ollama Embedding Models](https://ollama.com/blog/embedding-models)
 - HuggingFace Embedding
+
+### How to Run Ollama Models in local
+
+- Download Ollama for your OS type.
+- Then run ollama command to run the model
+
+### HiggingFace Sentence Transformer Embeddings
+
+- Python Framework for Sentence, Text and Image Embeddings.
+- uses Sentence Transformers.
+
+```sh
+ollama run gemma:2b
+'''
 
 ## Reference Docs
 
